@@ -6,6 +6,18 @@
     {
       "path": "./guides/GeneralEvents.md",
       "tag": "General"
+    },
+    {
+      "path": "./guides/StoresEvents.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/EventsEvents.md",
+      "tag": "Wix Bookings"
+    },
+    {
+      "path": "./guides/GeneralEvents.md",
+      "tag": "Wix Events"
     }
   ],  
   "docs": {
