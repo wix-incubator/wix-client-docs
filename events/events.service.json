@@ -4,19 +4,19 @@
   "labels": [],
   "relatedGuides": [
     {
-      "path": "./guides/GeneralEvents.md",
+      "path": "./guides/GENERAL-EVENTS/GeneralEvents.md",
       "tag": "General"
     },
     {
-      "path": "./guides/StoresEvents.md",
+      "path": "./guides/WIX-STORES-EVENTS/StoresEvents.md",
       "tag": "Wix Stores"
     },
     {
-      "path": "./guides/EventsEvents.md",
+      "path": "./guides/WIX-BOOKING-EVENTS/EventsEvents.md",
       "tag": "Wix Bookings"
     },
     {
-      "path": "./guides/GeneralEvents.md",
+      "path": "./guides/WIX-EVENTS-EVENTS/GeneralEvents.md",
       "tag": "Wix Events"
     }
   ],  
