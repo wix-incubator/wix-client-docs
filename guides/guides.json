@@ -1,12 +1,17 @@
 {
   "items": [
     {
-      "title": "Getting Started",
+      "title": "Introduction",
       "articles": [
         {
           "name": "Overview",
           "url": "./getting-started.md",
           "isMdFile": true
+        },
+        {
+          "name": "Old iframe SDK",
+          "url": "https://bo.wix.com/wix-docs/sdk",
+          "isExternalLink": true
         }
       ]
     }

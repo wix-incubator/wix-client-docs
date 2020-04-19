@@ -4,7 +4,8 @@
   "labels": [],
   "relatedGuides": [
     {
-      "path": "./guides/about all apis.md"
+      "path": "./guides/GeneralEvents.md",
+      "tag": "General"
     }
   ],  
   "docs": {
