@@ -9,8 +9,8 @@
           "isMdFile": true
         },
         {
-          "name": "Old iframe SDK",
-          "url": "https://bo.wix.com/wix-docs/sdk",
+          "name": "iframe SDK Documentation",
+          "url": "https://dev.wix.com/api/iframe-sdk",
           "isExternalLink": true
         }
       ]
