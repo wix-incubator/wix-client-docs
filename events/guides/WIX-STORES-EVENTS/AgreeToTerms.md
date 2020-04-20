@@ -6,8 +6,8 @@ Triggered when the user check the Agree to terms & conditions’ checkbox.
 
 |Name|Type|Description|  
 |---|---|---|  
-|eventCategory|text|Fixed ‘Enhanced Ecommerce’ string(???)|
-|eventAction|text|Fixed ‘Add Shipping Details’ string|
+|eventCategory|text|Wix category|
+|eventAction|text|More detailed event name|
 |eventLabel|text|Wix App name, i.e Stores, Bookings|
 |contents|array|All purchased products|
 |contents.Id|text|Product ID|

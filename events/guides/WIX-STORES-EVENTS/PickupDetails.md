@@ -1,12 +1,13 @@
-# Delivery Method
+# Pickup Details
 
-Triggered when the user adds personal information and clicks to advance to the next step in the checkout flow.
+Triggered whenthe user enters pickup information and clicks to advance to the next step in the checkout flow.
+
 
 **Properties**:
 
 |Name|Type|Description|  
 |---|---|---|  
-|eventCategory|text|Wix category|
+|eventCategory|text|Wix Category|
 |eventAction|text|More detailed event name|
 |eventLabel|text|Wix App name, i.e Stores, Bookings|
 |contents|array|All purchased products|
@@ -17,12 +18,13 @@ Triggered when the user adds personal information and clicks to advance to the n
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
-trackEvent("CustomEvent", 
+trackEvent(‘CustomEvent’, 
   {
-    "eventCategory": "Enhanced Ecommerce - Stores",
-    "eventAction": "Add Delivery Method",
-    "eventLabel": "stores",
+    "eventCategory": "Enhanced Ecommerce  - Stores",
+    "eventAction": "Pickup Details",
+    "eventLabel": "Stores",
     "contents": [{
       "id": "T123", 
       "name": "Running shoes",
