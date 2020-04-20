@@ -6,11 +6,11 @@ Triggered when the user adds shipping details and clicks to advance to the next 
 
 |Name|Type|Description|  
 |---|---|---|  
-|eventCategory|text|Fixed ‘Enhanced Ecommerce’ string(???)|
-|eventAction|text|Fixed ‘Add Shipping Details’ string(???)|
-|eventLabel|text|Wix App name, i.e Stores, Bookings|
+|eventCategory|text|Wix category|
+|eventAction|text|More detailed event name|
+|eventLabel|text|Wix App name, i.e Stores, Bookings (equivalent to `origin`)|
 |contents|array|All purchased products|
-|contents.Id|text|Product ID|
+|contents.id|text|Product ID|
 |contents.name|text|Product Name|
 |isPremium|Boolean|Whether the Wix site is Premium|  
 |userId|text|User ID|  
