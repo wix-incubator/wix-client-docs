@@ -44,6 +44,10 @@
       "tag": "Wix Stores"
     },
     {
+      "path": "./guides/WIX-STORES-EVENTS/PickupDetails.md",
+      "tag": "Wix Stores"
+    },
+    {
       "path": "./guides/WIX-STORES-EVENTS/ProductPageLoaded.md",
       "tag": "Wix Stores"
     },
