@@ -4,11 +4,63 @@
   "labels": [],
   "relatedGuides": [
     {
-      "path": "./guides/GENERAL-EVENTS/GeneralEvents.md",
+      "path": "./guides/GENERAL-EVENTS/Lead.md",
       "tag": "General"
     },
     {
-      "path": "./guides/WIX-STORES-EVENTS/StoresEvents.md",
+      "path": "./guides/GENERAL-EVENTS/PageView.md",
+      "tag": "General"
+    },
+    {
+      "path": "./guides/GENERAL-EVENTS/View.md",
+      "tag": "General"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/AddPaymentInfo.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/AddProductImpression.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/AddToCart.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/AgreeToTerms.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/ClickProduct.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/DeliveryMethod.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/InitiateCheckout.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/ProductPageLoaded.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/Purchase.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/RemoveFromCart.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/ShippingDetails.md",
+      "tag": "Wix Stores"
+    },
+    {
+      "path": "./guides/WIX-STORES-EVENTS/ShippingDetails.md",
       "tag": "Wix Stores"
     },
     {
