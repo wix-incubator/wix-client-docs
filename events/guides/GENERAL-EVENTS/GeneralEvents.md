@@ -2,6 +2,19 @@
 
 Triggered whenever a site page is opened.
 
+**Properties**:
+
+|Name|Type|Description|  
+|---|---|---|  
+|pageId|text|Page ID|
+|pageNumber|integer|Page Number|
+|pagePath|text|Page Path|
+|pageTitle|text|Page Title|
+|isPremium|Boolean|Whether the Wix site is Premium|  
+|userId|text|User ID|  
+|metaSiteId|text|Wix site ID|
+
+**Example**:
 ```JSON
 {
     "isPremium": true,
@@ -16,7 +29,25 @@ Triggered whenever a site page is opened.
 
 ## View Content
 
+Triggered whenever site content is viewed.
 
+**Properties**:
+
+|Name|Type|Description|  
+|---|---|---|  
+|origin|text|Wix App name, i.e stores, bookings |
+|id|text|Product ID|
+|name|text|Product Name|
+|category|text|Collection Name|
+|price|currency|Product price|
+|currency|currency|default site currency in ISO-4217 format|
+|sku|text|Product SKU|
+|type|text|Product type: physical or digital|
+|isPremium|boolean|Whether the Wix site is Premium|
+|userId|text|User ID|
+|metaSiteId|text|Wix site ID|
+
+**Example**:
 ```JSON
 {
     "category": "All Products",
@@ -37,6 +68,16 @@ Triggered whenever a site page is opened.
 
 Triggered when a form is submitted.
 
+**Properties**:
+
+|Name|Type|Description|  
+|---|---|---|  
+|label|text|Form label|
+|isPremium|boolean|Whether the Wix site is Premium|
+|userId|text|User ID|
+|metaSiteId|text|Wix site ID|
+
+**Example**:
 ```JSON
 {
     "label": "Page Name: Form",
