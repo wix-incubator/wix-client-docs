@@ -64,11 +64,11 @@
       "tag": "Wix Stores"
     },
     {
-      "path": "./guides/WIX-BOOKING-EVENTS/EventsEvents.md",
+      "path": "./guides/WIX-BOOKING-EVENTS/BookingsEvents.md",
       "tag": "Wix Bookings"
     },
     {
-      "path": "./guides/WIX-EVENTS-EVENTS/GeneralEvents.md",
+      "path": "./guides/WIX-EVENTS-EVENTS/EventsEvents.md",
       "tag": "Wix Events"
     }
   ],  
