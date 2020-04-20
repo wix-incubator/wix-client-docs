@@ -6,8 +6,8 @@ Triggered when the user adds personal information and clicks to advance to the n
 
 |Name|Type|Description|  
 |---|---|---|  
-|eventCategory|text|Fixed ‘Enhanced Ecommerce’ string(???)|
-|eventAction|text|Fixed ‘Add Shipping Details’ string|
+|eventCategory|text|Wix category|
+|eventAction|text|More detailed event name|
 |eventLabel|text|Wix App name, i.e Stores, Bookings|
 |contents|array|All purchased products|
 |contents.Id|text|Product ID|
