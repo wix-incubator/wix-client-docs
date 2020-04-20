@@ -7,11 +7,6 @@
           "name": "Overview",
           "url": "./getting-started.md",
           "isMdFile": true
-        },
-        {
-          "name": "iframe SDK Documentation",
-          "url": "https://dev.wix.com/api/iframe-sdk",
-          "isExternalLink": true
         }
       ]
     }
