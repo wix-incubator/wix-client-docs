@@ -6,14 +6,14 @@ Triggered when user clicks on the ‘Add to cart’ button.
 
 |Name|Type|Description|  
 |---|---|---|  
-|category|text|Collection Name|
+|category|text|Collection name|
 |origin|text|Wix App name, i.e stores, bookings |
 |id|text|Product ID|
-|name|text|Product Name|
+|name|text|Product name|
 |variant|text|Selected choice from 1st product option|
 |price|currency|Product price|
-|currency|currency|default site currency in ISO-4217 format|
-|quantity|integer|Quantity of product added to cart|
+|currency|currency|Currency in ISO-4217 format|
+|quantity|number|Quantity of product added to cart|
 |sku|text|Product SKU|
 |type|text|Product type: physical or digital|
 |isPremium|boolean|Whether the Wix site is Premium|
