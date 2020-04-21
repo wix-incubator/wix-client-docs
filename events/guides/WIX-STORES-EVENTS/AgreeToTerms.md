@@ -11,7 +11,7 @@ Triggered when the user check the Agree to terms & conditions’ checkbox.
 |eventLabel|text|Wix App name, i.e Stores, Bookings|
 |contents|array|All purchased products|
 |contents.id|text|Product ID|
-|contents.name|text|Product Name|
+|contents.name|text|Product name|
 |isPremium|boolean|Whether the Wix site is Premium|  
 |userId|text|User ID|  
 |metaSiteId|text|Wix site ID|
