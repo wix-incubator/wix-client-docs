@@ -11,8 +11,8 @@ Triggered when the user adds shipping details and clicks to advance to the next 
 |eventLabel|text|Wix App name, i.e Stores, Bookings (equivalent to `origin`)|
 |contents|array|All purchased products|
 |contents.id|text|Product ID|
-|contents.name|text|Product Name|
-|isPremium|Boolean|Whether the Wix site is Premium|  
+|contents.name|text|Product name|
+|isPremium|boolean|Whether the Wix site is Premium|  
 |userId|text|User ID|  
 |metaSiteId|text|Wix site ID|
 
