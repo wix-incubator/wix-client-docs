@@ -10,9 +10,9 @@ Triggered when the user check the Agree to terms & conditions’ checkbox.
 |eventAction|text|More detailed event name|
 |eventLabel|text|Wix App name, i.e Stores, Bookings|
 |contents|array|All purchased products|
-|contents.Id|text|Product ID|
+|contents.id|text|Product ID|
 |contents.name|text|Product Name|
-|isPremium|Boolean|Whether the Wix site is Premium|  
+|isPremium|boolean|Whether the Wix site is Premium|  
 |userId|text|User ID|  
 |metaSiteId|text|Wix site ID|
 
