@@ -8,10 +8,10 @@ Triggered whenever site content is viewed.
 |---|---|---|  
 |origin|text|Wix App name, i.e stores, bookings |
 |id|text|Product ID|
-|name|text|Product Name|
-|category|text|Collection Name|
+|name|text|Product name|
+|category|text|Collection name|
 |price|currency|Product price|
-|currency|currency|default site currency in ISO-4217 format|
+|currency|currency|Default site currency in ISO-4217 format|
 |sku|text|Product SKU|
 |type|text|Product type: physical or digital|
 |isPremium|boolean|Whether the Wix site is Premium|
