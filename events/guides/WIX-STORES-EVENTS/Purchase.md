@@ -17,8 +17,8 @@ Triggered on thank-you-page load.
 |contents.**category**|text|Collection Name|
 |contents.**price**|currency|Product Price|
 |contents.**currency**|currency|default site currency in ISO-4217 format|
-|contents.**quantity**|integer|Quantity of product ordered|
-|**isPremium**|Boolean|Whether the Wix site is Premium|  
+|contents.**quantity**|number|Quantity of product ordered|
+|**isPremium**|boolean|Whether the Wix site is Premium|  
 |**userId**|text|User ID|  
 |**metaSiteId**|text|Wix site ID|
 
