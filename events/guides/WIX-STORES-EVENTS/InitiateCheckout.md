@@ -6,16 +6,16 @@ Triggered when the ‘Checkout’ button is clicked.
 
 |Name|Type|Description|  
 |---|---|---|  
-|contents|Array|All products in cart|  
-|contents.Id|text|Product ID|
-|contents.name|text|Product Name|
-|contents.category|text|Collection Name|
+|contents|array|All products in cart|  
+|contents.id|text|Product ID|
+|contents.name|text|Product name|
+|contents.category|text|Collection name|
 |contents.variant|text|Selected choice from 1st product option|
 |contents.price|currency|Product price|
-|contents.currency|currency|default site currency in ISO-4217 format|
-|contents.quantity|integer|Quantity of product added to cart|
-|origin|Text|Wix App name, i.e Stores, Bookings |  
-|isPremium|Boolean|Whether the Wix site is Premium|  
+|contents.currency|currency|Currency in ISO-4217 format|
+|contents.quantity|number|Quantity of product added to cart|
+|origin|text|Wix App name, i.e Stores, Bookings |  
+|isPremium|boolean|Whether the Wix site is Premium|  
 |userId|text|User ID|  
 |metaSiteId|text|Wix site ID|
 
