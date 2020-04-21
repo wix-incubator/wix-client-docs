@@ -7,10 +7,10 @@ Triggered whenever a site page is opened.
 |Name|Type|Description|  
 |---|---|---|  
 |pageId|text|Page ID|
-|pageNumber|integer|Page Number|
-|pagePath|text|Page Path|
-|pageTitle|text|Page Title|
-|isPremium|Boolean|Whether the Wix site is Premium|  
+|pageNumber|number|Page number|
+|pagePath|text|Page path|
+|pageTitle|text|Page title|
+|isPremium|boolean|Whether the Wix site is Premium|  
 |userId|text|User ID|  
 |metaSiteId|text|Wix site ID|
 
