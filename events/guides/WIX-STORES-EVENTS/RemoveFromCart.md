@@ -6,14 +6,14 @@ Triggered when the user clicks to remove an item from the cart.
 
 |Name|Type|Description|  
 |---|---|---|  
-|origin|text|Wix App name, i.e stores, bookings |
+|origin|text|Wix App name, i.e Stores, Bookings |
 |id|text|Product ID|
-|name|text|Product Name|
-|category|text|Collection Name|
+|name|text|Product name|
+|category|text|Collection name|
 |variant|text|Selected choice from 1st product option|
 |price|currency|Product price|
-|currency|currency|default site currency in ISO-4217 format|
-|quantity|integer|Quantity of product added to cart|
+|currency|currency|Currency in ISO-4217 format|
+|quantity|number|Quantity of product removed from cart|
 |sku|text|Product SKU|
 |type|text|Product type: physical or digital|
 |isPremium|boolean|Whether the Wix site is Premium|
