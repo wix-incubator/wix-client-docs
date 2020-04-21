@@ -8,12 +8,12 @@ Triggered when the user clicks on a product from any of the galleries.
 |---|---|---|  
 |id|text|Product ID|
 |origin|text|Wix App name, i.e Stores, Bookings |
-|name|text|Product Name|
+|name|text|Product name|
 |list|text|Name of relevant product gallery|
-|category|text|Collection Name|
-|position|integer|Product position in the gallery|
-|price|currency|Product Price|
-|currency|currency|default site currency in ISO-4217 format|
+|category|text|Collection name|
+|position|number|Product position in the gallery|
+|price|currency|Product price|
+|currency|currency|Default site currency in ISO-4217 format|
 |sku|text|Product SKU|
 |type|text|Product type: physical or digital|
 |isPremium|boolean|Whether the Wix site is Premium|  
