@@ -2,22 +2,22 @@
 
 ## Add Product Impression
 
-Triggered whenever a page is loaded that contains either a product gallery or widget.
+Triggered whenever a page is loaded that contains a product gallery or widget.
 
 **Properties**:
 
 |Name|Type|Description|  
 |---|---|---|  
-|contents|Array|All purchased products |  
-|contents.Id|text|Product ID|
-|contents.name|text|Product Name|
+|contents|array|All purchased products |  
+|contents.id|text|Product ID|
+|contents.name|text|Product name|
 |contents.list|text|Name of relevant product gallery|
-|contents.category|text|Collection Name|
-|contents.position|integer|Product position in the gallery|
-|contents.price|currency|Product Price|
-|contents.currency|currency|default site currency in ISO-4217 format|
+|contents.category|text|Collection name|
+|contents.position|number|Product position in the gallery|
+|contents.price|currency|Product price|
+|contents.currency|currency|Default site currency in ISO-4217 format|
 |origin|text|Wix App name, i.e Stores, Bookings |  
-|isPremium|Boolean|Whether the Wix site is Premium|  
+|isPremium|boolean|Whether the Wix site is Premium|  
 |userId|text|User ID|  
 |metaSiteId|text|Wix site ID|
 
