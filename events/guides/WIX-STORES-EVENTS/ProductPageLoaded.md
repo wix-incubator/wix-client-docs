@@ -7,9 +7,9 @@ Triggered whenever a product page loads.
 |Name|Type|Description|  
 |---|---|---|  
 |id|text|Product ID|
-|name|text|Product Name|
-|price|currency|Product Price|
-|currency|currency|default site currency in ISO-4217 format|
+|name|text|Product name|
+|price|currency|Product price|
+|currency|currency|Default site currency in ISO-4217 format|
 |isPremium|boolean|Whether the Wix site is Premium|  
 |userId|text|User ID|  
 |metaSiteId|text|Wix site ID|
