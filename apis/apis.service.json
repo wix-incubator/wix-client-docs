@@ -4,7 +4,8 @@
   "labels": [],
   "relatedGuides": [
     {
-      "path": "./guides/GENERAL-EVENTS/about all apis.md"
+      "path": "./guides/Current Member Data.md",
+      "tag": "Members"
     }
   ],  
   "docs": {
