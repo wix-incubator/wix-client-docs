@@ -14,7 +14,7 @@ In addition, it allows you to confirm this customer's identity within the insecu
 
 ### Syntax
 ```
-**GET**  https://{site_domain}/_api/apps/current-member/{app_id}
+GET  https://{site_domain}/_api/apps/current-member/{app_id}
 ```
 
 ### Request Params
