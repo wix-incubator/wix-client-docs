@@ -8,7 +8,7 @@ This API should be used if your application needs to check, on the client-side, 
 In addition, it allows you to confirm this customer's identity within the insecure environment of the user's browser.
 
 
-> **Note**:
+> **Important**:  
 This API is dependent on the implementation of an [Embedded Script](https://devforum.wix.com/en/article/about-embedded-script-components) component, and can be accessed only via JS from the client-side browser.
 
 
