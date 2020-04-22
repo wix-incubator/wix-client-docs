@@ -1,6 +1,5 @@
-# Current Member Data `{{maybe should rename it to Current Visitor Data?}}`
+# Current Member Data 
 
-`{{summary here}}`
 Returns information about the current site visitor (dependent on login as site member).  
 Can be accessed via JavaScript on the site's client side.  
 Returns a JWT with identifying details about the user/member that is signed with your public key (add link to how we sign data).  
@@ -9,8 +8,9 @@ This API should be used if your application needs to check, on the client-side, 
 In addition, it allows you to confirm this customer's identity within the insecure environment of the user's browser.
 
 
-### Authorization / Permissions `{{choose one}}`
-`{{authorization info here - not necessarily about token, but can be link to article about embeded script etc...}}`
+> **Note**:
+This API is dependent on the implementation of an [Embedded Script](https://devforum.wix.com/en/article/about-embedded-script-components) component, and can be accessed only via JS from the client-side browser.
+
 
 ### Syntax
 ```
