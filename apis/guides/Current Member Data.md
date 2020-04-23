@@ -31,8 +31,8 @@ GET  https://{site_domain}/_api/apps/current-member/{app_id}
 |---|---|
 |**member**|Member data object|
 | member.**id** | GUID of the user that can be used to access more information|
-| member.**role**| Site visitor's role. Can be one of: “MEMBER” if he is a logged in site memeber, "OWNER" if the user is the site owner or "CONTRIBUTOR" if the user is one the site team members|
-| member.**email**| Member's email address|
-| member.**nickname**| Member's name|
-| member.**language**| Member's primary language|
+| member.**role**| Site visitor's role. Can be one of: “MEMBER”, "OWNER" or "CONTRIBUTOR"|
+| member.**email**| Email address|
+| member.**nickname**| Name|
+| member.**language**| Primary language|
 |**signedToken**| A signed JWT token, which you can verify with you public key (available in the Developers Center)|
