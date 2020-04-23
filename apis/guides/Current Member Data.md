@@ -29,10 +29,10 @@ GET  https://{site_domain}/_api/apps/current-member/{app_id}
 
 |Name|Description|
 |---|---|
-|**member**|Member data|
-| member.**id** | GUID of the user that can be used to accessed more information|
-| member.**role**| Site visitor's role: “MEMBER”|
+|**member**|Member data object|
+| member.**id** | GUID of the user that can be used to access more information|
+| member.**role**| Site visitor's role. Can be one of: “MEMBER”, "OWNER" or "CONTRIBUTOR"|
 | member.**email**| Email address|
-| member.**nickname**| Member's name|
-| member.**language**| Member's primary language|
+| member.**nickname**| Name|
+| member.**language**| Primary language|
 |**signedToken**| A signed JWT token, which you can verify with you public key (available in the Developers Center)|
