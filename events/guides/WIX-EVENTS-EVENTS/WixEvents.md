@@ -23,7 +23,7 @@ trackEvent("CustomEvent", {
     "eventLabel": "Wix Events",
     "eventCategory" : "Enhanced Ecommerce",
     "contents": [ {
-      "name": "Some great event", // event name
+      "name": "Some great event",
       "list": "Widget",
     "position": 1
   }, 
@@ -73,7 +73,7 @@ Triggered when user adds a ticket to the cart.
 |currency|currency|Currency in ISO-4217 format|
 |variant|text|ticket type|
 |position|number|Event position in the gallery|
-|quantity|numberNnumber of tickets added|
+|quantity|number|Number of tickets added|
 |isPremium|boolean|Whether the Wix site is Premium|
 |userId|text|User ID|
 |metaSiteId|text|Wix site ID|
@@ -139,7 +139,7 @@ Triggered when the more than 1 ticket is selected.
 **Example**:
 ```JSON
 trackEvent("CustomEvent", {
-  event: "AddAssigned",
+  "event": "AddAssigned",
     "eventLabel": "Wix Events",
     "eventCategory" : "Enhanced Ecommerce"
 } );
@@ -161,9 +161,9 @@ Triggered when the user adds a coupon.
 **Example**:
 ```JSON
 trackEvent("CustomEvent", {
-  event: "AddCoupon",
+  "event": "AddCoupon",
     "eventLabel": "Wix Events",
-   "eventCategory: "Enhanced Ecommerce",
+   "eventCategory": "Enhanced Ecommerce",
 } );
 ```
 
@@ -281,7 +281,7 @@ Triggered when the user clicks "Register now".
 **Example**:
 ```JSON
 trackEvent("CustomEvent", {
-  event: "Name:rsvpClick",
+  "event": "Name:rsvpClick",
   "eventLabel": "Wix Events",
   "eventCategory" : "Enhanced Ecommerce"
 } );
@@ -304,7 +304,7 @@ Triggered when the user views RSVP content.
 **Example**:
 ```JSON
 trackEvent("CustomEvent", {
-  event: "Name:"RsvpContentView",
+  "event": "Name:RsvpContentView",
   "eventLabel": "Wix Events",
   "eventCategory" : "Enhanced Ecommerce"
 } );
@@ -327,7 +327,7 @@ Triggered when the user continues registration.
 **Example**:
 ```JSON
 trackEvent("CustomEvent", {
-  event: "Name:"RsvpRegisterNext",
+  "event": "Name:RsvpRegisterNext",
   "eventLabel": "Wix Events",
   "eventCategory" : "Enhanced Ecommerce"
 } );
