@@ -350,7 +350,7 @@ Triggered when the user clicks submit.
 **Example**:
 ```JSON
 trackEvent("CustomEvent", {
-  event: "Name:"RsvpSubmit",
+  "event": "Name:"RsvpSubmit",
   "eventLabel": "Wix Events",
   "eventCategory" : "Enhanced Ecommerce"
 } );
