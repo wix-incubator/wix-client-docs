@@ -3,6 +3,7 @@
 Triggered when the ‘Checkout’ button is clicked.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |origin|text|Wix App name, i.e Events, Bookings |
@@ -17,6 +18,7 @@ Triggered when the ‘Checkout’ button is clicked.
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("InitiateCheckout", {
   "origin": "Wix Events",
