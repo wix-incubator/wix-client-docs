@@ -72,7 +72,55 @@
       "tag": "Wix Bookings"
     },
     {
-      "path": "./guides/WIX-EVENTS-EVENTS/EventsEvents.md",
+      "path": "./guides/WIX-EVENTS-EVENTS/AddAssigned.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/AddCoupon.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/AddPaymentInfo.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/AddToCart.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/ClickProduct.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/InitiateCheckout.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/Purchase.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/RSVPClick.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/RSVPContentView.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/RSVPRegisterNext.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/RSVPSubmit.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/RemoveFromCart.md",
+      "tag": "Wix Events"
+    },
+    {
+      "path": "./guides/WIX-EVENTS-EVENTS/WidgetView.md",
       "tag": "Wix Events"
     }
   ],  
