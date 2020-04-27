@@ -3,6 +3,7 @@
 Triggered when the user clicks to remove a ticket from the cart.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |origin|text|Wix App name, i.e Events, Bookings |
@@ -17,6 +18,7 @@ Triggered when the user clicks to remove a ticket from the cart.
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("RemoveFromCart", {
   "origin": "Wix Events",
