@@ -3,6 +3,7 @@
 Triggered when user adds a ticket to the cart.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |origin|text|Wix App name, i.e Events, Bookings |
@@ -17,6 +18,7 @@ Triggered when user adds a ticket to the cart.
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("AddToCart", {
   "origin": "Wix Events",
