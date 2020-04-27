@@ -3,6 +3,7 @@
 Triggered on thank-you-page load.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |origin|text|Wix App name, i.e Events, Stores|
@@ -19,6 +20,7 @@ Triggered on thank-you-page load.
 
 
 **Example**:
+
 ```JSON
 trackEvent("Purchase", {
   "origin": "Wix Events",
