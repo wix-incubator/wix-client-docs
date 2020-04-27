@@ -3,6 +3,7 @@
 Triggered whenever a page is loaded that contains either an event gallery or widget.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |event|text|Event name |
@@ -17,6 +18,7 @@ Triggered whenever a page is loaded that contains either an event gallery or wid
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("CustomEvent", {
     "event": "widgetView",
