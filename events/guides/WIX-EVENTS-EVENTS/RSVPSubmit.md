@@ -3,6 +3,7 @@
 Triggered when the user clicks submit.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |event|text|Event name|
@@ -13,6 +14,7 @@ Triggered when the user clicks submit.
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("CustomEvent", {
   "event": "Name:"RsvpSubmit",
