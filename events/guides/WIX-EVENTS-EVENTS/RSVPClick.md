@@ -3,6 +3,7 @@
 Triggered when the user clicks "Register now".
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |event|text|Event name|
@@ -13,6 +14,7 @@ Triggered when the user clicks "Register now".
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("CustomEvent", {
   "event": "Name:rsvpClick",
