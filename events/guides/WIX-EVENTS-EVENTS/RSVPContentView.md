@@ -3,6 +3,7 @@
 Triggered when the user views RSVP content.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |event|text|Event name|
@@ -13,6 +14,7 @@ Triggered when the user views RSVP content.
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("CustomEvent", {
   "event": "Name:RsvpContentView",
