@@ -3,6 +3,7 @@
 Triggered when the user continues registration.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |event|text|Event name|
@@ -13,6 +14,7 @@ Triggered when the user continues registration.
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("CustomEvent", {
   "event": "Name:RsvpRegisterNext",
