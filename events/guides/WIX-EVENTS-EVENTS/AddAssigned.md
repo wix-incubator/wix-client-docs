@@ -3,6 +3,7 @@
 Triggered when the more than 1 ticket is selected.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |event|test|event name|
@@ -13,6 +14,7 @@ Triggered when the more than 1 ticket is selected.
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("CustomEvent", {
   "event": "AddAssigned",
