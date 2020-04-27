@@ -3,6 +3,7 @@
 Triggered when the user clicks on a event from any of the galleries.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |origin|text|Wix App name, i.e Events, Bookings |
@@ -14,6 +15,7 @@ list|text|Name of relevant event gallery|
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("ClickProduct", {
   "origin": "Wix Events",
