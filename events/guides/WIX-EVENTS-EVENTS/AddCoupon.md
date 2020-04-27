@@ -3,6 +3,7 @@
 Triggered when the user adds a coupon.
 
 **Properties**:
+
 |Name|Type|Description|
 |---|---|---|
 |eventLabel|text|Wix App name, i.e Events, Bookings|
@@ -12,6 +13,7 @@ Triggered when the user adds a coupon.
 |metaSiteId|text|Wix site ID|
 
 **Example**:
+
 ```JSON
 trackEvent("CustomEvent", {
   "event": "AddCoupon",
