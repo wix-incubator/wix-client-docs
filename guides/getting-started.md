@@ -1,4 +1,4 @@
-Our client-side APIs are a collection of events and APIs that can be used by any integration that injects JavaScript into a Wix site using the Embedded Script component (learn more about Embedded Script component).
+Our client-side APIs are a collection of events and APIs that can be used by any integration that injects JavaScript into a Wix site using the [Embedded Script component](https://devforum.wix.com/en/article/about-embedded-script-components).
 
 The events can give your app real-time information about the site, the content viewed, and user actions.
 This reference documents every object and method available. You can use these APIs to make your app react to user actions or learn about user behavior. In addition, you can use the API to report and listen to custom events sent by other apps.
