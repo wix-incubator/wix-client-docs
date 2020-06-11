@@ -17,6 +17,6 @@ Triggered when a user signs up or logs in to Wix Members.
 trackEvent("CustomEvent", {
     "eventCategory" : "Site members",
     "eventAction" : "Sign up Success",
-    "eventLabel": "Facebook" \\ or Google or Wix
+    "eventLabel": "Facebook" 
 } );
 ```
