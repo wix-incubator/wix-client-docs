@@ -3,6 +3,7 @@
 Triggered when a user signs up or logs in to Wix Members.
 
 **Properties**:  
+
 |Name|Type|Description|  
 |---|---|---|  
 |eventCategory|text|Wix category |  
