@@ -16,6 +16,10 @@
       "tag": "General"
     },
     {
+      "path": "./guides/WIX-MEMBERS-EVENTS/SignUpLogInEvents.md",
+      "tag": "Wix Members"
+    },
+    {
       "path": "./guides/WIX-STORES-EVENTS/AddPaymentInfo.md",
       "tag": "Wix Stores"
     },
