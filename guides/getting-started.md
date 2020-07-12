@@ -14,8 +14,7 @@ function registerListener() {
 
 window.wixDevelopersAnalytics ?
   registerListener() :
-  window.addEventListener('wixDevelopersAnalyticsReady', registerListener());
-  
+ window.addEventListener('wixDevelopersAnalyticsReady', registerListener);  
 ```
 
 ## Listening to a Predefined Wix Event
