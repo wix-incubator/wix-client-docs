@@ -14,8 +14,7 @@ function registerListener() {
 
 window.wixDevelopersAnalytics ?
   registerListener() :
-  window.onWixDevelopersAnalyticsReady = function() {
-    registerListener();
+  window.addEventListener('wixDevelopersAnalyticsReady', registerListener());
   }
 ```
 
