@@ -1,0 +1,34 @@
+{
+  "name": "Dashboard SDK",
+  "mixes": [],
+  "labels": [],
+  "docs": {
+    "summary": "",
+    "description": []
+  },
+  "properties": [],
+  "relatedGuides": [
+    {
+      "path": "./guides/Intro.md"
+    },
+    {
+      "path": "./guides/openModal.md"
+    },
+    {
+      "path": "./guides/closeModal.md"
+    },
+    {
+      "path": "./guides/navigate.md"
+    },
+    {
+      "path": "./guides/observeState.md"
+    },
+    {
+      "path": "./guides/showToast.md"
+    }
+  ],
+  "operations": [],
+  "callbacks": [],
+  "messages": [],
+  "extra": {}
+}
