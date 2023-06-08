@@ -2,14 +2,14 @@
 
 Opens a modal.
 
-This function returns a promise that resolves when the modal is closed. The object that the promise resolves to contains
+This function returns an object containing a promise that resolves when the modal is closed. The object that the promise resolves to contains
 any data passed to the [closeModal](closeModal.md) function used to close the modal.
 
 
 ## Syntax
 
 ```ts
-openModal(componentId, componentParams): Promise<Object>
+openModal(componentId, componentParams): Object
 ```
 
 ## Parameters
@@ -22,16 +22,16 @@ openModal(componentId, componentParams): Promise<Object>
 
 ## Returns
 ```
-Promise<Object>
+Object
 ```
 ## Examples
+
+[How to create a dashboard sdk instance?](Intro.md#usage)
 
 **Open a modal and log the data returned when it's closed**
 
 ```ts
-import { openModal } from '@wix/dashboard-sdk';
-
-const { modalClosed } = await openModal('my-component-id');
+const { modalClosed } = wix.dashboard.openModal('my-component-id');
 modalClosed.then((result) => {
   console.log('The modal was closed and returned the value:', result);
 });

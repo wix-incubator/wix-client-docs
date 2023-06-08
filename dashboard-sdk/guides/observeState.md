@@ -22,7 +22,7 @@ The format of the `state` argument received by `observeState` depends on the pag
 ## Syntax
 
 ```ts
-observeState<S>(observer: Observer<S>): void
+wix.observeState<S>(observer: Observer<S>): void
 ```
 
 
@@ -39,13 +39,12 @@ observeState<S>(observer: Observer<S>): void
 | `observer` | Observer<S, T\> | Callback function for receiving state data. Receives 2 parameters, `state` and `envData`. |
 
 ## Examples
+[How to create a dashboard sdk instance?](Intro.md#usage)
 
 **Receive state data and log it to the console**
 
 ```ts
-import { observeState } from '@wix/dashboard-sdk';
-
-observeState<{ customStateProp: string }>((state, envData) => {
+wix.dashboard.observeState<{ customStateProp: string }>((state, envData) => {
   console.log('custom prop', state.customStateProp);
   console.log('locale', envData.locale);
 });

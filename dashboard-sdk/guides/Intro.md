@@ -6,28 +6,54 @@ The Dashboard SDK is a tool that allows the code in custom dashboard components 
 
 ## Installation
 
-The Dashboard SDK is an [npm package](https://www.npmjs.com/package/@wix/dashboard-sdk) written in TypeScript. You can find it in the public npm registry.
+The Dashboard SDK is a [npm package](https://www.npmjs.com/package/@wix/dashboard) written in TypeScript. You can find it in the public npm registry.
 
-To add the Dashboard SDK to your project's dependencies, run 1 of the following commands:
+To add the Dashboard SDK to your project's dependencies, run one of the following commands:
 
 **Install using NPM**
 
 ```bash
-npm i -S @wix/dashboard-sdk
+npm i @wix/dashboard
 ```
 
 **Install using Yarn**
 
 ```bash
-yarn add @wix/dashboard-sdk
+yarn add @wix/dashboard
 ```
 
-## Import
+## Usage
 
-To use the Dashboard SDK in your project, import the functions using the following syntax:
+The SDK can be used as a module for `@wix/api-client`, so if you don't have `@wix/api-client` installed you can install it by running one of the following commands:
+
+
+**Install using NPM**
+
+```bash
+npm i @wix/api-client
+```
+
+**Install using Yarn**
+
+```bash
+yarn add @wix/api-client
+```
+
+Now you should be able to create a SDK instance: 
 
 ```JS
-import { <functionName> } from '@wix/dashboard-sdk';
+import { createClient } from '@wix/api-client';
+import { dashboard } from '@wix/dashboard';
+
+const wix = createClient({
+    auth: dashboard.auth(),
+    modules: { dashboard }
+});
+```
+
+You can then use `wix.dashboard` to call for dashboard methods, for example:
+```JS
+wix.dashboard.showToast({ message: 'Hello!' });
 ```
 
 ## Contact Us

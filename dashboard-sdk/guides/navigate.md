@@ -6,7 +6,7 @@ If an invalid `pageId` value is passed to this function, a "Page Not Found" mess
 
 ## Syntax
 ```ts
-navigate(pageId)| void
+navigate(pageId): void
 ```
 ## Parameters
 
@@ -15,17 +15,17 @@ navigate(pageId)| void
 | `pageId` | string | ID of the page to navigate to. Use the [Page IDs](#page-ids) table to find the appropriate ID.|
 
 ## Returns
-
+```ts
 void
+```
 
 ## Examples
+[How to create a dashboard sdk instance?](Intro.md#usage)
 
 **Navigate to the dashboard home page**
 
 ```ts
-import { navigate } from '@wix/dashboard-sdk';
-
-navigate(`home`);
+wix.dashboard.navigate('home');
 ```
 
 ## Page IDs

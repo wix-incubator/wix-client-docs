@@ -13,7 +13,7 @@ Requests to display toasts may be queued and the toast may not be displayed imme
 
 ## Syntax
 ```ts
-showToast(config): Promise<Object>
+showToast(config): Object
 ```
 
 ## Parameters
@@ -45,19 +45,19 @@ showToast(config): Promise<Object>
 
 ## Returns
 ```
-Promise<Object>
+Object
 ```
 The object returned by `showToast` contains a function that can be used to remove the toast.
 
 
 ## Examples
 
+[How to create a dashboard sdk instance?](Intro.md#usage)
+
 **Display a success toast when a product is updated**
 
 ```ts
-import { showToast } from '@wix/dashboard-sdk';
-
-showToast({ 
+wix.dashboard.showToast({ 
   message: 'Product updated successfully!',
   type : 'success'
 });
@@ -66,9 +66,7 @@ showToast({
 **Display an error toast with a 'Learn more' link**
 
 ```ts
-import { showToast } from '@wix/dashboard-sdk';
-
-const toastConfig = {
+wix.dashboard.showToast({
   message: 'Product update failed.',
   timeout: 'none',
   type: 'error',
@@ -79,21 +77,17 @@ const toastConfig = {
     removeToastOnClick: true,
     onClick: () => {
       // Logic to run when the user clicks the 'Learn more' link.
-      console.log('Learn more clicked!')'
+      console.log('Learn more clicked!');
     }
   }
-}
-
-showToast(toastConfig);
+});
 ```
 
 **Remove a displayed toast**
 
 ```ts
-import { showToast } from '@wix/dashboard-sdk';
-
 // Display a toast and save the remove function.
-const { remove } = await showToast({ 
+const { remove } = wix.dashboard.showToast({ 
   message: 'Product updated successfully!',
   type : 'success',
   timeout : 'none'

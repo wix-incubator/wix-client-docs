@@ -18,11 +18,10 @@ closeModal(closeData): void
 void
 
 ## Examples
+[How to create a dashboard sdk instance?](Intro.md#usage)
 
 **Close a modal**
 
 ```ts
-import { closeModal } from '@wix/dashboard-sdk';
-
-closeModal({'message': 'The modal is closed!'});
+wix.dashboard.closeModal({ message: 'The modal is closed!' });
 ```
