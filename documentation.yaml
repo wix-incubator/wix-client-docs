@@ -1,0 +1,6 @@
+apiDoc:
+  title: 'Client SDKs'
+  markdownOnlyAutoUpdate: true
+  docs:
+    - file: './apis/guides/Current Member Data.md'
+      title: 'Current Member Data'
