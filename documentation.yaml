@@ -58,3 +58,5 @@ apiDoc:
       title: 'Wix Events'
     - file: './events/guides/WIX-MEMBERS-EVENTS/SignUpLogInEvents.md'
       title: 'Sign Up and Log In'
+    - file: './guides/getting-started.md'
+      title: 'Sign Up and Log In'
