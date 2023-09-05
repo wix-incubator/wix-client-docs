@@ -1,10 +1,13 @@
 # openModal
 
+> **Deprecated**:
+>
+> This function will continue to work, but a [newer version](https://dev.wix.com/docs/sdk/api-reference/dashboard/openModal) is available in the `@wix/dashboard` module.
+
 Opens a modal.
 
 This function returns a promise that resolves when the modal is closed. The object that the promise resolves to contains
 any data passed to the [closeModal](closeModal.md) function used to close the modal.
-
 
 ## Syntax
 
@@ -14,16 +17,17 @@ openModal(componentId, componentParams): Promise<Object>
 
 ## Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `componentId` | string | ID of the component to show in the modal. |
+| Name              | Type                 | Description                                       |
+| :---------------- | :------------------- | :------------------------------------------------ |
+| `componentId`     | string               | ID of the component to show in the modal.         |
 | `componentParams` | Record<string, any\> | Optional. Custom data to pass into the component. |
 
-
 ## Returns
+
 ```
 Promise<Object>
 ```
+
 ## Examples
 
 **Open a modal and log the data returned when it's closed**

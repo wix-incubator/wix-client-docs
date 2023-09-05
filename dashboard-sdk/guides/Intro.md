@@ -1,5 +1,12 @@
 # Dashboard SDK
 
+> **Deprecated**:
+>
+> The `@wix/dashboard-sdk` module has been replaced by [`@wix/dashboard`](https://dev.wix.com/docs/sdk/api-reference/dashboard/setup).
+>
+> If you're already using this module in your code, it will continue to work.
+> To stay compatible with future changes, update your code to use `@wix/dashboard`.
+
 The [dashboard](https://support.wix.com/en/article/about-your-wix-dashboard) is a control center for Wix sites. It allows users to manage their sites' settings and business features. The dashboard also includes tools for things such as analytics, eCommerce, and marketing. Third-party apps can create custom dashboard components, including pages and widgets, that are displayed in the dashboards of users who install the apps. These components are iframe elements where 3rd-party apps can run their own code.
 
 The Dashboard SDK is a tool that allows the code in custom dashboard components to interact with other parts of the Wix dashboard. Using the SDK, developers can navigate users to pages in the dashboard, display modals, and send users alerts and updates using toasts. The SDK makes it simpler and easier to create custom experiences for users in their sites' dashboards.
