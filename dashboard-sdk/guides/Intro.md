@@ -2,7 +2,7 @@
 
 > **Deprecated**:
 >
-> The `@wix/dashboard-sdk` module has been replaced by [`@wix/dashboard`](https://dev.wix.com/docs/sdk/api-reference/dashboard/setup).
+> The `@wix/dashboard-sdk` module has been replaced by [`@wix/dashboard`](https://dev.wix.com/docs/sdk/api-reference/dashboard/introduction).
 >
 > If you're already using this module in your code, it will continue to work.
 > To stay compatible with future changes, update your code to use `@wix/dashboard`.
