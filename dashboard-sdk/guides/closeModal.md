@@ -2,7 +2,7 @@
 
 > **Deprecated**:
 >
-> This function will continue to work, but a [newer version](https://dev.wix.com/docs/sdk/api-reference/dashboard/closeModal) is available in the `@wix/dashboard` module.
+> This function will continue to work, but a [newer version](https://dev.wix.com/docs/sdk/api-reference/dashboard/close-modal) is available in the `@wix/dashboard` module.
 
 Closes the currently open modal.
 
