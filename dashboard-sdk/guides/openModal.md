@@ -2,7 +2,7 @@
 
 > **Deprecated**:
 >
-> This function will continue to work, but a [newer version](https://dev.wix.com/docs/sdk/api-reference/dashboard/openModal) is available in the `@wix/dashboard` module.
+> This function will continue to work, but a [newer version](https://dev.wix.com/docs/sdk/api-reference/dashboard/open-modal) is available in the `@wix/dashboard` module.
 
 Opens a modal.
 
