@@ -2,7 +2,7 @@
 
 > **Deprecated**:
 >
-> This function will continue to work, but a [newer version](https://dev.wix.com/docs/sdk/api-reference/dashboard/showToast) is available in the `@wix/dashboard` module.
+> This function will continue to work, but a [newer version](https://dev.wix.com/docs/sdk/api-reference/dashboard/show-toast) is available in the `@wix/dashboard` module.
 
 Displays a toast notification.
 
