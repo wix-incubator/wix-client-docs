@@ -2,7 +2,7 @@
 
 > **Deprecated**:
 >
-> This function will continue to work, but a [newer version](https://dev.wix.com/docs/sdk/api-reference/dashboard/observeState) is available in the `@wix/dashboard` module.
+> This function will continue to work, but a [newer version](https://dev.wix.com/docs/sdk/api-reference/dashboard/observe-state) is available in the `@wix/dashboard` module.
 
 Receives changes to the state of the page surrounding a dashboard component. You can use this data to dynamically update a
 dashboard component's content.
