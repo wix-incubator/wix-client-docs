@@ -20,7 +20,7 @@ Triggered whenever a page is loaded that contains either a product gallery or wi
 |metaSiteId|text|Wix site ID|
 
 **Example**:  
-```json
+```JSON
 {
   "contents": [{
     "id": "df19c1f7-07d8-a265-42f8-e8dfa824cc6e", 

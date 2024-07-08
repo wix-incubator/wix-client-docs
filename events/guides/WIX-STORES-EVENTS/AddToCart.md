@@ -1,10 +1,10 @@
 # Add to Cart
 
-Triggered when user clicks on the **Add to cart** button. ???
+Triggered when user clicks on the ‘Add to cart’ button.
 
-## Add to Cart: Event Properties
+**Properties**:
 
-<!-- |Name|Type|Description|  
+|Name|Type|Description|  
 |---|---|---|  
 |category|text|Collection name|
 |origin|text|Wix App name, i.e stores, bookings |
@@ -18,42 +18,22 @@ Triggered when user clicks on the **Add to cart** button. ???
 |type|text|Product type: physical or digital|
 |isPremium|boolean|Whether the Wix site is Premium|
 |userId|text|User ID|
-|metasiteId|text|Wix site ID| -->
+|metasiteId|text|Wix site ID|
 
-| Name |  Type  | Description |
-| --- | --- | --- |
-| origin  | string  | Wix App that emitted this event, such as "Stores", "Bookings" |
-| id | GUID  | Product ID  |
-| name  | string  | Product name  |
-| price  | number | Product price |
-| currency  | currency  | Default site currency in ISO-4217 format  |
-| quantity  | number  | Product quantity  |
-| sku  | string  | Product Stock Keeping Unit (SKU)  |
-| type  |  string | Product type (for example, "physical") |
-| brand  |  string | Product brand  |
-| visitorId  |  GUID | Site visitor ID |
-| _internalEventId  | GUID | ADD DESCRIPTION  |
-| isPremium  |  boolean | Whether the Wix site is a Premium site. |  
-| userId | GUID  | Wix user ID |  
-| metaSiteId  | GUID  | Wix site ID |
-
-### Example
-
-```json
+**Example**:
+```JSON
 {
+  "category": "All Products",
   "origin": "Stores",
-  "id": "362b1084-060a-49d8-9ba3-e4701d2dac32",
-  "name": "Coffee Extravaganza: Four 250g Blends of Premium Beans",
-  "price": 67.5,
+  "id": "cd59cd36-b6d2-2cf3-9d48-81793a7bdbbd",
+  "name": "Reading glasses",
+  "price": 20,
   "currency": "USD",
   "quantity": 1,
-  "sku": "",
+  "sku": "364215375135191",
   "type": "physical",
-  "brand": null,
-  "visitorId": "6d0465bd-ea9e-4fdf-b7f4-6979755e13d8",
-  "_internalEventId": "905bc987-0681-4148-93b0-b0d255b48d83",
   "isPremium": true,
-  "userId": "31ff72a7-bc9f-4925-bc84-e0d2fe493a5a",
-  "metaSiteId": "9b7f4f1c-f125-4a36-92a7-9eb1e0f0fbf6"
+  "userId": "affea1e3-8652-4b59-a3a0-e8f88fdab661",
+  "metaSiteId": "58617836-3714-4dac-860a-dd524531c13e"
 }
 ```
