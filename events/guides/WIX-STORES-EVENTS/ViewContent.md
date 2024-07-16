@@ -1,30 +1,31 @@
 # View Content
 
-Triggered whenever a visitor views their cart contents. 
+Triggered whenever a visitor views the product page.
 
 ## View Content: Event Properties
 
-| Name |  Type  | Description |
-| --- | --- | --- |
-| origin | string  |  |
-| id | GUID  | Product ID  |
-| name  | string  | Product name  |
-| price  | number | Product price |
-| currency  | currency  | Default site currency in ISO-4217 format  |
-| sku  | string  | Product Stock Keeping Unit (SKU)  |
-| type  |  string | Product type (for example, "physical") |
-| brand  |  string | Product brand  |
-| dimension3  | string | ADD DESCRIPTION  |
-| variants | array of objects | Product variants |
-| variants.id | GUID | Variant ID |
-| variants.optionsSelectionsIds | GUID | Product variant ID |
-| variants.price | number | Product variant ID |
-| variants.sku | string | Product variant Stock Keeping Unit (SKU) ID |
-| visitorId  | GUID | Site visitor ID |
-| _internalEventId  | GUID | ADD DESCRIPTION  |
-| isPremium  |  boolean | Whether the Wix site is a Premium site. |  
-| userId | GUID  | Wix user ID |  
-| metaSiteId  | GUID  | Wix site ID |
+| Name                          | Type             | Description                                                                                            |
+| ----------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------ |
+| origin                        | string           | Wix App that emitted this event, such as "Stores" or "Bookings."                                       |
+| id                            | GUID             | Product ID                                                                                             |
+| name                          | string           | Product name                                                                                           |
+| price                         | number           | Product price                                                                                          |
+| currency                      | currency         | Default site currency in ISO-4217 format                                                               |
+| sku                           | string           | Product Stock Keeping Unit (SKU)                                                                       |
+| type                          | string           | Product type. Possible values are `physical` and `digital`.                                            |
+| brand                         | string           | Product brand                                                                                          |
+| dimension3                    | string           | ADD DESCRIPTION                                                                                        |
+| variants                      | array of objects | Product variants                                                                                       |
+| variants.id                   | GUID             | Variant ID                                                                                             |
+| variants.optionsSelectionsIds | array of numbers | Product options the user selected, such as size or color. Each array index refers to a product option. |
+| variants.price                | number           | Product price                                                                                          |
+| variants.sku                  | string           | Product variant Stock Keeping Unit (SKU) ID                                                            |
+| options                       | array of objects | Product options such as size or colors.                                                                |
+| visitorId                     | GUID             | Site visitor ID                                                                                        |
+| \_internalEventId             | GUID             | Event ID                                                                                               |
+| isPremium                     | boolean          | Whether the Wix site is a Premium site.                                                                |
+| userId                        | GUID             | Wix user ID                                                                                            |
+| metaSiteId                    | GUID             | Wix site ID                                                                                            |
 
 ### Example
 

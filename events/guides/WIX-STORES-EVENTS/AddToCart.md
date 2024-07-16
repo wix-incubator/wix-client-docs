@@ -1,41 +1,25 @@
 # Add to Cart
 
-Triggered when user clicks on the **Add to cart** button. ???
+Triggered when user clicks on the **Add to cart** button.
 
 ## Add to Cart: Event Properties
 
-<!-- |Name|Type|Description|  
-|---|---|---|  
-|category|text|Collection name|
-|origin|text|Wix App name, i.e stores, bookings |
-|id|text|Product ID|
-|name|text|Product name|
-|variant|text|Selected choice from 1st product option|
-|price|currency|Product price|
-|currency|currency|Currency in ISO-4217 format|
-|quantity|number|Quantity of product added to cart|
-|sku|text|Product SKU|
-|type|text|Product type: physical or digital|
-|isPremium|boolean|Whether the Wix site is Premium|
-|userId|text|User ID|
-|metasiteId|text|Wix site ID| -->
-
-| Name |  Type  | Description |
-| --- | --- | --- |
-| origin  | string  | Wix App that emitted this event, such as "Stores", "Bookings" |
-| id | GUID  | Product ID  |
-| name  | string  | Product name  |
-| price  | number | Product price |
-| currency  | currency  | Default site currency in ISO-4217 format  |
-| quantity  | number  | Product quantity  |
-| sku  | string  | Product Stock Keeping Unit (SKU)  |
-| type  |  string | Product type (for example, "physical") |
-| brand  |  string | Product brand  |
-| visitorId  |  GUID | Site visitor ID |
-| _internalEventId  | GUID | ADD DESCRIPTION  |
-| isPremium  |  boolean | Whether the Wix site is a Premium site. |  
-| userId | GUID  | Wix user ID |  
-| metaSiteId  | GUID  | Wix site ID |
+| Name              | Type     | Description                                                      |
+| ----------------- | -------- | ---------------------------------------------------------------- |
+| origin            | string   | Wix App that emitted this event, such as "Stores" or "Bookings." |
+| id                | GUID     | Product ID                                                       |
+| name              | string   | Product name                                                     |
+| price             | number   | Product price                                                    |
+| currency          | currency | Default site currency in ISO-4217 format                         |
+| quantity          | number   | Product quantity                                                 |
+| sku               | string   | Product Stock Keeping Unit (SKU)                                 |
+| type              | string   | Product type. Possible values are `physical` and `digital`.      |
+| brand             | string   | Product brand                                                    |
+| visitorId         | GUID     | Site visitor ID                                                  |
+| \_internalEventId | GUID     | Event ID.                                                        |
+| isPremium         | boolean  | Whether the Wix site is a Premium site.                          |
+| userId            | GUID     | Wix user ID                                                      |
+| metaSiteId        | GUID     | Wix site ID                                                      |
 
 ### Example
 
