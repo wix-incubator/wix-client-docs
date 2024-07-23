@@ -7,19 +7,19 @@ Triggered when user clicks on the **Add to cart** button.
 | Name              | Type     | Description                                                      |
 | ----------------- | -------- | ---------------------------------------------------------------- |
 | origin            | string   | Wix App that emitted this event, such as "Stores" or "Bookings." |
-| id                | GUID     | Product ID                                                       |
-| name              | string   | Product name                                                     |
-| price             | number   | Product price                                                    |
-| currency          | currency | Default site currency in ISO-4217 format                         |
-| quantity          | number   | Product quantity                                                 |
-| sku               | string   | Product Stock Keeping Unit (SKU)                                 |
+| id                | GUID     | Product ID.                                                      |
+| name              | string   | Product name.                                                    |
+| price             | number   | Product price.                                                   |
+| currency          | currency | Default site currency in ISO-4217 format.                        |
+| quantity          | number   | Product quantity.                                                |
+| sku               | string   | Product Stock Keeping Unit (SKU).                                |
 | type              | string   | Product type. Possible values are `physical` and `digital`.      |
-| brand             | string   | Product brand                                                    |
-| visitorId         | GUID     | Site visitor ID                                                  |
-| \_internalEventId | GUID     | Event ID.                                                        |
+| brand             | string   | Product brand.                                                   |
+| visitorId         | GUID     | Site visitor ID.                                                 |
+| _internalEventId | GUID     | Event ID.                                                        |
 | isPremium         | boolean  | Whether the Wix site is a Premium site.                          |
-| userId            | GUID     | Wix user ID                                                      |
-| metaSiteId        | GUID     | Wix site ID                                                      |
+| userId            | GUID     | Wix user ID.                                                     |
+| metaSiteId        | GUID     | Wix site ID.                                                     |
 
 ### Example
 

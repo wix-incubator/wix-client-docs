@@ -7,26 +7,26 @@ Triggered when the **Buy Now** button is clicked.
 | Name              | Type             | Description                                                      |
 | ----------------- | ---------------- | ---------------------------------------------------------------- |
 | origin            | string           | Wix App that emitted this event, such as "Stores" or "Bookings." |
-| id                | GUID             | Product ID                                                       |
-| name              | string           | Product name                                                     |
-| price             | number           | Total price of all items currently in cart                       |
-| currency          | currency         | Currency in ISO-4217 format                                      |
-| quantity          | number           | Number of items in cart                                          |
-| sku               | string           | Product Stock Keeping Unit (SKU)                                 |
+| id                | GUID             | Product ID.                                                      |
+| name              | string           | Product name.                                                    |
+| price             | number           | Total price of all items in the checkout process.                |
+| currency          | currency         | Currency in ISO-4217 format.                                     |
+| quantity          | number           | Number of items in checkout process.                             |
+| sku               | string           | Product Stock Keeping Unit (SKU).                                |
 | type              | string           | Product type. Possible values are `physical` and `digital`.      |
-| brand             | string           | Product brand                                                    |
-| checkoutId        | GUID             | Checkout ID                                                      |
-| contents          | array of objects | All products in cart                                             |
-| contents.id       | GUID             | Product ID                                                       |
-| contents.name     | string           | Product name                                                     |
-| contents.price    | number           | Product price                                                    |
-| contents.currency | currency         | Currency in ISO-4217 format                                      |
-| contents.quantity | number           | Product quantity                                                 |
-| visitorId         | GUID             | Site visitor ID                                                  |
-| \_internalEventId | GUID             | Event ID.                                                        |
+| brand             | string           | Product brand.                                                   |
+| checkoutId        | GUID             | Checkout ID.                                                     |
+| contents          | array of objects | Products in the checkout process.                                |
+| contents.id       | GUID             | Product ID.                                                      |
+| contents.name     | string           | Product name.                                                    |
+| contents.price    | number           | Product price.                                                   |
+| contents.currency | currency         | Currency in ISO-4217 format.                                     |
+| contents.quantity | number           | Product quantity.                                                |
+| visitorId         | GUID             | Site visitor ID.                                                 |
+| _internalEventId | GUID             | Event ID.                                                        |
 | isPremium         | boolean          | Whether the Wix site is a Premium site.                          |
-| userId            | GUID             | Wix user ID                                                      |
-| metaSiteId        | GUID             | Wix site ID                                                      |
+| userId            | GUID             | Wix user ID.                                                     |
+| metaSiteId        | GUID             | Wix site ID.                                                     |
 
 ### Example
 

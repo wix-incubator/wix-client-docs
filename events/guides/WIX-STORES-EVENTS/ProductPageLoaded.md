@@ -4,18 +4,18 @@ Triggered whenever a product page loads.
 
 ## Product Page Loaded: Event Properties
 
-| Name              | Type     | Description                              |
-| ----------------- | -------- | ---------------------------------------- |
-| productId         | GUID     | Product ID                               |
-| name              | string   | Product name                             |
-| currency          | currency | Default site currency in ISO-4217 format |
-| price             | number   | Product price                            |
-| sku               | string   | Product Stock Keeping Unit (SKU)         |
-| visitorId         | GUID     | Site visitor ID                          |
-| \_internalEventId | GUID     | Event ID                                 |
-| isPremium         | boolean  | Whether the Wix site is a Premium site.  |
-| userId            | GUID     | Wix user ID                              |
-| metaSiteId        | GUID     | Wix site ID                              |
+| Name              | Type     | Description                               |
+| ----------------- | -------- | ----------------------------------------- |
+| productId         | GUID     | Product ID.                               |
+| name              | string   | Product name.                             |
+| currency          | currency | Default site currency in ISO-4217 format. |
+| price             | number   | Product price.                            |
+| sku               | string   | Product Stock Keeping Unit (SKU).         |
+| visitorId         | GUID     | Site visitor ID.                          |
+| _internalEventId | GUID     | Event ID.                                 |
+| isPremium         | boolean  | Whether the Wix site is a Premium site.   |
+| userId            | GUID     | Wix user ID.                              |
+| metaSiteId        | GUID     | Wix site ID.                              |
 
 ### Example
 
