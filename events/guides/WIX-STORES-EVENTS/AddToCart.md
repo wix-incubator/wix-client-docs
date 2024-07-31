@@ -31,7 +31,7 @@ Triggered when user clicks on the **Add to cart** button.
   "price": 67.5,
   "currency": "USD",
   "quantity": 1,
-  "sku": "364215375135191",
+  "sku": "",
   "type": "physical",
   "brand": null,
   "visitorId": "6d0465bd-ea9e-4fdf-b7f4-6979755e13d8",

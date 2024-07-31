@@ -27,6 +27,7 @@ Triggered when a visitor views the product page.
 | userId                        | GUID             | Wix user ID.                                                                                                                                                                                                                                                                                                                                                                                             |
 | metaSiteId                    | GUID             | Wix site ID.                                                                                                                                                                                                                                                                                                                                                                                             |
 
+
 ### Example
 
 ```json

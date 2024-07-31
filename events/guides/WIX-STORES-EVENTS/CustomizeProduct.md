@@ -24,6 +24,7 @@ Triggered when a user changes something on the product page, such as choosing th
 | userId               | GUID             | Wix user ID.                                                                                                                                                                                                                                                                                                                                                                                             |
 | metaSiteId           | GUID             | Wix site ID.                                                                                                                                                                                                                                                                                                                                                                                             |
 
+
 ### Example
 
 ```json
