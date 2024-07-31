@@ -16,7 +16,7 @@ Triggered when user clicks on the **Add to cart** button.
 | type              | string   | Product type. Possible values are `physical` and `digital`.      |
 | brand             | string   | Product brand.                                                   |
 | visitorId         | GUID     | Site visitor ID.                                                 |
-| _internalEventId | GUID     | Event ID.                                                        |
+| _internalEventId  | GUID     | Event ID.                                                        |
 | isPremium         | boolean  | Whether the Wix site is a Premium site.                          |
 | userId            | GUID     | Wix user ID.                                                     |
 | metaSiteId        | GUID     | Wix site ID.                                                     |
@@ -31,7 +31,7 @@ Triggered when user clicks on the **Add to cart** button.
   "price": 67.5,
   "currency": "USD",
   "quantity": 1,
-  "sku": "",
+  "sku": "364215375135191",
   "type": "physical",
   "brand": null,
   "visitorId": "6d0465bd-ea9e-4fdf-b7f4-6979755e13d8",

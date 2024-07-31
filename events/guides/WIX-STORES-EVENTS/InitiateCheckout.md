@@ -23,7 +23,7 @@ Triggered when the **Buy Now** button is clicked.
 | contents.currency | currency         | Currency in ISO-4217 format.                                     |
 | contents.quantity | number           | Product quantity.                                                |
 | visitorId         | GUID             | Site visitor ID.                                                 |
-| _internalEventId | GUID             | Event ID.                                                        |
+| _internalEventId  | GUID             | Event ID.                                                        |
 | isPremium         | boolean          | Whether the Wix site is a Premium site.                          |
 | userId            | GUID             | Wix user ID.                                                     |
 | metaSiteId        | GUID             | Wix site ID.                                                     |

@@ -1,6 +1,6 @@
 # Product Page Loaded
 
-Triggered whenever a product page loads.
+Triggered when a product page loads.
 
 ## Product Page Loaded: Event Properties
 
@@ -12,7 +12,7 @@ Triggered whenever a product page loads.
 | price             | number   | Product price.                            |
 | sku               | string   | Product Stock Keeping Unit (SKU).         |
 | visitorId         | GUID     | Site visitor ID.                          |
-| _internalEventId | GUID     | Event ID.                                 |
+| _internalEventId  | GUID     | Event ID.                                 |
 | isPremium         | boolean  | Whether the Wix site is a Premium site.   |
 | userId            | GUID     | Wix user ID.                              |
 | metaSiteId        | GUID     | Wix site ID.                              |
@@ -22,10 +22,10 @@ Triggered whenever a product page loads.
 ```json
 {
   "productId": "224c5d1b-e278-06d1-dea5-ec51528d266a",
-  "name": "Utokia Hemp CBD Pre-Roll 6 Joint Adventure Pack",
+  "name": "Coffee Bomb: Two 250g Blends of Premium Columbian Beans",
   "currency": "USD",
   "price": 29,
-  "sku": "",
+  "sku": "366615376135191",
   "visitorId": "6d0465bd-ea9e-4fdf-b7f4-6979755e13d8",
   "_internalEventId": "2206e562-b643-40bd-87c2-657e3bceac0f",
   "isPremium": true,
