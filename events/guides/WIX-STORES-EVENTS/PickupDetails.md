@@ -1,6 +1,6 @@
 # Pickup Details
 
-Triggered whenthe user enters pickup information and clicks to advance to the next step in the checkout flow.
+Triggered when the user enters pickup information and clicks to advance to the next step in the checkout flow.
 
 
 **Properties**:

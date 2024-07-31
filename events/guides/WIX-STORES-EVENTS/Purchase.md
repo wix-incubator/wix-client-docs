@@ -1,6 +1,6 @@
 # Purchase
 
-Triggered on thank-you-page load.
+Triggered when the Thank You page loads.
 
 **Properties**:
 

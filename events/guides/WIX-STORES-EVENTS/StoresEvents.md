@@ -2,7 +2,7 @@
 
 ## Add Product Impression
 
-Triggered whenever a page is loaded that contains a product gallery or widget.
+Triggered when a page is loaded that contains a product gallery or widget.
 
 **Properties**:
 
