@@ -9,7 +9,7 @@ In addition, it allows you to confirm this customer's identity within the insecu
 
 
 > **Important**:  
-This API is dependent on the implementation of an [Embedded Script](https://devforum.wix.com/en/article/about-embedded-script-components) component, and can be accessed only via JS from the client-side browser.
+This API is dependent on the implementation of an [Embedded Script](https://dev.wix.com/docs/build-apps/develop-your-app/extensions/site-extensions/embedded-scripts/about-embedded-scripts) component, and can be accessed only via JS from the client-side browser.
 
 
 ### Syntax
