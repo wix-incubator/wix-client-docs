@@ -60,3 +60,5 @@ apiDoc:
       title: 'Sign Up and Log In'
     - file: './guides/getting-started.md'
       title: 'Getting Started'
+    - file: './apis/guides/WixEmbedsAPI.md'
+      title: 'WixEmbedsAPI'
