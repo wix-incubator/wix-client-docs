@@ -1,5 +1,5 @@
 # Wix Embeds
-Use the `wixEmbedsAPI` in [self-hosted Embedded Script extensions](https://dev.wix.com/docs/build-apps/develop-your-app/frameworks/self-hosting/supported-extensions/site-extensions/add-an-embedded-script-extension-to-a-self-hosted-app) to interact with the site's page.
+Use the `wixEmbedsAPI` in [self-hosted Embedded Script extensions](https://dev.wix.com/docs/build-apps/develop-your-app/frameworks/self-hosting/supported-extensions/site-extensions/add-an-embedded-script-extension-to-a-self-hosted-app) to interact with a site's pages.
 
 ## Usage
 You don't need to import `wixEmbedsAPI` because it's a property of the global JavaScript `window` object. However, you can't immediately access it when your embedded script runs.
