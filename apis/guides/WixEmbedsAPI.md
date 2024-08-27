@@ -1,10 +1,8 @@
-# WixEmbedsAPI
-The `wixEmbedsApi` is a property of the global `window` javascript object.
-
-Use this API in [self-hosted Embedded Script extensions](https://dev.wix.com/docs/build-apps/develop-your-app/frameworks/self-hosting/supported-extensions/site-extensions/add-an-embedded-script-extension-to-a-self-hosted-app) to interact with the site's page.
+# Wix Embeds
+Use the `wixEmbedsAPI` in [self-hosted Embedded Script extensions](https://dev.wix.com/docs/build-apps/develop-your-app/frameworks/self-hosting/supported-extensions/site-extensions/add-an-embedded-script-extension-to-a-self-hosted-app) to interact with the site's page.
 
 ## Usage
-You don't need to import `wixEmbedsApi` because it's a property of the global JavaScript `window` object. However, you can't immediately access it when your embedded script runs.
+You don't need to import `wixEmbedsAPI` because it's a property of the global JavaScript `window` object. However, you can't immediately access it when your embedded script runs.
 
 Therefore, you should add an event listener that listens for the `wixEmbedsAPIReady` event.
 
@@ -44,6 +42,8 @@ getAccessTokenFunction(): () => Promise<accessToken>
 Asynchronous function that resolves to an access token.
 
 #### Examples
+
+Retrieve an access token:
 ```js
 const getAccessToken = window.wixEmbedsAPI.getAccessTokenFunction();
 const accessToken = await getAccessToken();
