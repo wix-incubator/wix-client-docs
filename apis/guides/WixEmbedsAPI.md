@@ -31,7 +31,7 @@ Returns an asynchronous function that resolves to an access token.
 
 Use this access token to call Wix [REST APIs](https://dev.wix.com/docs/rest) and use the Wix [JavaScript SDK](https://dev.wix.com/docs/sdk) with [site visitor](https://dev.wix.com/docs/build-apps/develop-your-app/access/about-identities#site-visitors) or [site member](https://dev.wix.com/docs/build-apps/develop-your-app/access/about-identities#site-members) authentication in an [embedded script](https://dev.wix.com/docs/build-apps/develop-your-app/frameworks/self-hosting/supported-extensions/site-extensions/add-an-embedded-script-extension-to-a-self-hosted-app) app extension. 
 
-Learn more about [authorizing API calls in self-hosted embedded script extensions](ADD-LINK-TO-KB-ARTICLE).
+Learn more about [access tokens self-hosted site extensions](https://dev.wix.com/docs/build-apps/develop-your-app/frameworks/self-hosting/supported-extensions/site-extensions/access-tokens/about-access-tokens-in-self-hosted-site-extensions).
 
 #### Syntax
 ```js
