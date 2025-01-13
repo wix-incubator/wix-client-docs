@@ -1,8 +1,11 @@
 # Current Member Data
 
-> **Deprecation Notice**
->
-> **This API has been replaced with the [Get Current Member](https://dev.wix.com/docs/sdk/backend-modules/members/members/get-current-member) method and will be removed on June 30, 2025. If your app uses this API, we recommend updating your code as soon as possible.**
+<blockquote class='warning'>
+
+**Deprecation Notice**
+
+**This API has been replaced with the [Get Current Member](https://dev.wix.com/docs/sdk/backend-modules/members/members/get-current-member) method and will be removed on June 30, 2025. If your app uses this API, we recommend updating your code as soon as possible.**
+</blockquote>
 
 Returns information about the current site visitor (dependent on login as site member).  
 Can be accessed via JavaScript on the site's client side.  
