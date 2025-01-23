@@ -62,5 +62,5 @@ apiDoc:
       title: 'Getting Started'
     - file: './apis/guides/WixEmbedsAPI.md'
       title: 'WixEmbedsAPI'
-    - file: './apis/Current Member Data Stub.md'
+    - file: './guides/Current Member Data Stub.md'
       title: 'Current Member Data'
