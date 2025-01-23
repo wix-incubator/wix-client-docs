@@ -3,6 +3,8 @@ apiDoc:
   markdownOnlyAutoUpdate: true
   docs:
     - file: './apis/guides/Current Member Data.md'
+      title: 'Current Member Data (Deprecated)'
+    - file: './apis/guides/Current Member Data Stub.md'
       title: 'Current Member Data'
     - file: './dashboard-sdk/guides/Intro.md'
       title: 'Intro'
@@ -62,5 +64,3 @@ apiDoc:
       title: 'Getting Started'
     - file: './apis/guides/WixEmbedsAPI.md'
       title: 'WixEmbedsAPI'
-    - file: './guides/Current Member Data Stub.md'
-      title: 'Current Member Data'
