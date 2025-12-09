@@ -1,5 +1,13 @@
 # Lead
 
+<blockquote class="warning">
+
+**Deprecation Warning:** 
+
+The Wix Client portal is deprecated. All content has been moved to the [SDK portal](#TODO - add link to Events Intro).
+
+</blockquote>
+
 Triggered when a form is submitted.
 
 **Properties**:
