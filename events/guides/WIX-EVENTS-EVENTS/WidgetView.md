@@ -1,5 +1,13 @@
 # Widget View (Event Widget/Gallery)
 
+<blockquote class="warning">
+
+**Deprecation Warning:** 
+
+The client-side analytics events documented in this reference are deprecated. All event documentation has been moved to the SDK and is now available through the [Analytics API](https://dev.wix.com/docs/sdk/host-modules/site/analytics/introduction). 
+
+</blockquote>
+
 Triggered whenever a page is loaded that contains either an event gallery or widget.
 
 **Properties**:

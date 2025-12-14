@@ -1,6 +1,14 @@
 # Initiate Checkout
 
-Triggered when the ‘Checkout’ button is clicked.
+<blockquote class="warning">
+
+**Deprecation Warning:** 
+
+The client-side analytics events documented in this reference are deprecated. All event documentation has been moved to the SDK and is now available through the [Analytics API](https://dev.wix.com/docs/sdk/host-modules/site/analytics/introduction). 
+
+</blockquote>
+
+Triggered when the 'Checkout' button is clicked.
 
 **Properties**:
 
