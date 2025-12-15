@@ -1,5 +1,13 @@
 # Introduction
 
+<blockquote class="warning">
+
+**Deprecation Warning:** 
+
+The client-side analytics events documented in this reference are deprecated. All event documentation has been moved to the SDK and is now available through the [Analytics API](https://dev.wix.com/docs/sdk/host-modules/site/analytics/introduction). 
+
+</blockquote>
+
 Our client-side APIs are a collection of events and APIs that can be used by any integration that injects JavaScript into a Wix site using the [Embedded Script extension](https://dev.wix.com/docs/build-apps/develop-your-app/extensions/site-extensions/embedded-scripts/about-embedded-scripts).
 
 The events can give your app real-time information about the site, the content viewed, and user actions.
