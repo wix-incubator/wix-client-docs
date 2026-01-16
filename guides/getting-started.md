@@ -15,7 +15,10 @@ This reference documents every object and method available. You can use these AP
 
 
 ## On-Ready Event
-To make sure you aren't calling the event before it is fully initiated, here is an on-ready event you can listen to:
+To make sure you aren't calling the event before it is fully initiated, here is an on-ready event you can listen to.
+Once it is initiated, register your app to the events using the register function. The register function requires two parameters:
+* app_id (String) - register using your app id to make sure each app is registered once, and for our records
+* callback (Function) - a callback function to invoke on an event accrues. The callback function will receive an event name as a string and an object with the event data.
 ```JavaScript
 function registerListener() {
     window.wixDevelopersAnalytics.register('head', 
