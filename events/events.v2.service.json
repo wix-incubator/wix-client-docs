@@ -1,5 +1,5 @@
 {
-  "name": "Events",
+  "name": "Events.v2",
   "mixes": [],
   "labels": [],
   "relatedGuides": [
@@ -9,7 +9,7 @@
     },
     {
       "path": "./guides/GENERAL-EVENTS/PageView.md",
-      "tag": "General"
+      "tag": "General.v2"
     },
     {
       "path": "./guides/GENERAL-EVENTS/ViewContent.md",
@@ -17,11 +17,11 @@
     },
     {
       "path": "./guides/WIX-MEMBERS-EVENTS/SignUpLogInEvents.md",
-      "tag": "Wix Members"
+      "tag": "Wix Members.v2"
     },
     {
       "path": "./guides/WIX-STORES-EVENTS/AddPaymentInfo.md",
-      "tag": "Wix Stores"
+      "tag": "Wix Stores.v2"
     },
     {
       "path": "./guides/WIX-STORES-EVENTS/AddProductImpression.md",
@@ -29,7 +29,7 @@
     },
     {
       "path": "./guides/WIX-STORES-EVENTS/AddToCart.md",
-      "tag": "Wix Stores"
+      "tag": "Wix Stores.v2"
     },
     {
       "path": "./guides/WIX-STORES-EVENTS/AgreeToTerms.md",
